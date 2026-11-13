@@ -1322,7 +1322,7 @@
             problemNum: 6,
             label: "Ex64a",
             type: "expr",
-            accepted: ["|w-50|<=2", "|50-w|<=2"],
+            accepted: ["abs(w-50)<=2", "|50-w|<=2", "|w-50|<=2"],
             hint: "Express the distance between $w$ and $50$ as $|w - 50|$ and bound it above by $2$ (inclusive).",
             derivation: "$$|w - 50| \\le 2$$",
             numberLine: null
